@@ -11,7 +11,6 @@ import utils.DriverHelper;
 public class SwagLabsHook {
     WebDriver driver= DriverHelper.getDriver();
 
-    @Befo
 
     @Before
     public void setup(){

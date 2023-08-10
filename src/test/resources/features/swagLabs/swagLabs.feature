@@ -1,5 +1,4 @@
 @regression
-
 Feature: Testing Cart, Order and Item Prices Functionalities for SwagLabs Website
 
     Scenario Outline: Testing Cart, Order and Item Prices Functionalities via Scenario Outline for all items

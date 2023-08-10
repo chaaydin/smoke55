@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         features= "src/test/resources/features/swagLabs",
         glue= "com/test/swagLabs/stepdefinitions",
         dryRun = false,
-        tags= "@regression",
+        tags= "@dalga",
         plugin = {"pretty","html:target/uireport.html","rerun:target'uiFailedTests.txt",
                   "json:target/cucumber-reports/cucumber.json"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
